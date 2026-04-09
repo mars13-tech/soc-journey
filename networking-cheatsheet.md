@@ -27,9 +27,6 @@ Attack: SYN Flood = send millions of SYN, never complete = server exhausted
 - RDP Port 3389 — remote desktop — Attack: Brute force, BlueKeep
 
 ## Ports Every SOC Analyst Knows
-21=FTP | 22=SSH | 23=Telnet | 25=SMTP | 53=DNS
-80=HTTP | 110=POP3 | 143=IMAP | 443=HTTPS | 445=SMB
+21=FTP | 22=SSH | 23=Telnet | 25=SMTP | 53=DNS   
+80=HTTP | 110=POP3 | 143=IMAP | 443=HTTPS | 445=SMB   
 1433=MSSQL | 3306=MySQL | 3389=RDP | 5985=WinRM | 8080=HTTP-alt
-TOMORROW — DAY 2 PREVIEW
-Linux CLI + Windows Event IDs
-⚡ Tonight prep: Tonight: install OverTheWire Bandit via SSH. Command: ssh bandit0@bandit.labs.overthewire.org -p 2220 (password: bandit0). Just verify you can connect — that's it.
