@@ -35,13 +35,13 @@
 - Clone Phishing = real email duplicated, link swapped
 
 ## OWASP Top 10 (SOC View)
-A01 Broken Access Control — 200 OK on admin by non-admin
-A02 Crypto Failures — password in HTTP cleartext
-A03 Injection — SQL keywords in URL, WAF alert, 500 errors
-A04 Insecure Design — mass abuse of specific feature
-A05 Misconfiguration — default creds, /admin exposed externally
-A06 Vulnerable Components — CVE exploit pattern in IDS
-A07 Auth Failures — 800 failed logins then 1 success same IP
-A08 Data Integrity — new C2 connection after software update
-A09 Logging Failures — no logs from critical server
-A10 SSRF — internal IP or 169.254.x.x in request params
+- A01 Broken Access Control — 200 OK on admin by non-admin
+- A02 Crypto Failures — password in HTTP cleartext
+- A03 Injection — SQL keywords in URL, WAF alert, 500 errors
+- A04 Insecure Design — mass abuse of specific feature
+- A05 Misconfiguration — default creds, /admin exposed externally
+- A06 Vulnerable Components — CVE exploit pattern in IDS
+- A07 Auth Failures — 800 failed logins then 1 success same IP
+- A08 Data Integrity — new C2 connection after software update
+- A09 Logging Failures — no logs from critical server
+- A10 SSRF — internal IP or 169.254.x.x in request params
